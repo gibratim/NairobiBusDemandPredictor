@@ -32,7 +32,7 @@ Categorical variables like 'travel_from', 'car_type', and 'travel_to' are label-
 
 ## Model Selection and Hyperparameter Tuning
 
-Two models, XGBoost and LightGBM, are selected for this task. Both models are known for their high performance on tabular data and are widely used in Kaggle competitions. 
+Two models, XGBoost and LightGBM, are selected for this task. Both models are known for their high performance on tabular data and are widely used. 
 
 ## Hyperparameter Tuning
 - **XGBoost**: RandomizedSearchCV was used to tune parameters like 'learning_rate', 'max_depth', and 'n_estimators'. RandomizedSearchCV is computationally more efficient than GridSearchCV and provides a good trade-off between performance and computational time.
@@ -43,7 +43,7 @@ Two models, XGBoost and LightGBM, are selected for this task. Both models are kn
 
 To improve the model's accuracy, the predictions from both XGBoost and LightGBM are stacked using a meta-model (Linear Regression). This technique captures the strengths of both models, producing a more robust prediction.
 
-## Model Evaluation and Submission
+## Model Evaluation
 
 The models' performances are evaluated using Mean Squared Error (MSE) as the metric, which is standard for regression problems. The final predictions are inverse-transformed to bring them back to the original scale and are then saved in a CSV file for submission.
 
