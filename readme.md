@@ -12,7 +12,7 @@ This resulting model can be used to anticipate customer demand for certain rides
 
 ## Summary
 
-The code aims to predict transportation-related variables, such as the number of tickets sold for each ride, as part of a presumed Kaggle competition. The code uses Python and several machine learning libraries like scikit-learn, XGBoost, and LightGBM. The pipeline includes data preprocessing, feature engineering, hyperparameter tuning, model training, and ensembling to produce the most accurate predictions. 
+The code aims to predict transportation-related variables, such as the number of tickets sold for each ride. The code uses Python and several machine learning libraries like scikit-learn, XGBoost, and LightGBM. The pipeline includes data preprocessing, feature engineering, hyperparameter tuning, model training, and ensembling to produce the most accurate predictions. 
 
 ## Data Preprocessing and Feature Engineering
 
